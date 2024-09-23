@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Proyecto simulador artistas BA</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+     <header>
+          <h1>Portal Artistas BA</h1>
+          <nav>
+               <ul>
+                    <li><a href="#registro">Registro de Artistas</a></li>
+                    <li><a href="#artistas">Ver Artistas</a></li>
+               </ul>
+          </nav>
+     </header>
+
+
+     <section id="registro">
+          <h2>Registrar Artista</h2>
+          <form id="form-artista">
+               <label for="nombre">Nombre del artista:</label>
+               <input type="text" id="nombre" name="nombre" required>
+
+               <label for="genero">Género musical:</label>
+               <input type="text" id="genero" name="genero" required>
+
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required>
+
+               <label for="disponibilidad">Disponibilidad:</label>
+               <select id="disponibilidad" name="disponibilidad" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="disponible">Disponible</option>
+                    <option value="no disponible">No disponible</option>
+               </select>
+
+               <button type="submit">Registrar</button>
+          </form>
+     </section>
+
+
+     <section id="artistas">
+          <h2>Artistas Registrados</h2>
+          <div id="lista-artistas" class="artistas-container">
+               
+          </div>
+     </section>
+
+     <footer>
+          <p>&copy; 2024 Manuel Rosas. Todos los derechos reservados.</p>
+          <div class="social-icons">
+               <a href="https://www.instagram.com/"><img src="img/iconos/instagram-50.png" alt="Instagram"></a>
+               <a href="https://open.spotify.com/intl-es/artist/13Aw4kvMgRhqQQndVGx9dc"><img src="./img/iconos/Soundcloud-50.png" alt="Soundcloud"></a>
+               <a href="https://soundcloud.com/es"><img src="./img/iconos/spotify-50.png" alt="Spotyfy"></a>
+          </div>
+     </footer>
+
+     <script src="js/main.js"></script>
+</body>
+
+</html>

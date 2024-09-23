@@ -1,0 +1,51 @@
+[
+     {
+          "nombre": "KESSLER",
+          "genero": "HardCore",
+          "disponibilidad": "Disponible",
+          "email": "kessler1@example.com"
+     },
+     {
+          "nombre": "Ludmilla Dipascula",
+          "genero": "Techno",
+          "disponibilidad": "No disponible",
+          "email": "ludmilla2@example.com"
+     },
+     {
+          "nombre": "RUTHLESS",
+          "genero": "Hard Techno",
+          "disponibilidad": "Disponible",
+          "email": "ruthless3@example.com"
+     },
+     {
+          "nombre": "RDMTN",
+          "genero": "Hard Techno",
+          "disponibilidad": "No disponible",
+          "email": "rdmn333@example.com"
+     },
+     {
+          "nombre": "BACHVS",
+          "genero": "Hard Techno",
+          "disponibilidad": "Disponible",
+          "email": "bachvs5@example.com"
+     },
+     {
+          "nombre": "DANYO",
+          "genero": "Groove Techno",
+          "disponibilidad": "Disponible",
+          "email": "danyo5@example.com"
+     },
+     {
+          "nombre": "NANO",
+          "genero": "Hipnotic Techno",
+          "disponibilidad": "Disponible",
+          "email": "bachvs5@example.com"
+     },
+
+     {
+          "nombre": "KARMA",
+          "genero": "Hipnotic Techno",
+          "disponibilidad": "No disponible",
+          "email": "karma666@example.com"
+     }
+]

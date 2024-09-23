@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f4f4f4;
+}
+
+header {
+     background-color: #333;
+     color: white;
+     padding: 20px 0;
+     text-align: center;
+}
+
+header h1 {
+     margin: 0;
+     font-size: 2em;
+}
+
+nav ul {
+     list-style: none;
+     padding: 0;
+}
+
+nav ul li {
+     display: inline;
+     margin-right: 15px;
+}
+
+nav ul li a {
+     color: white;
+     text-decoration: none;
+}
+
+/* Sección de registro */
+section {
+     padding: 20px;
+}
+
+#registro h2,
+#artistas h2 {
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+form {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     margin: 0 auto;
+}
+
+label {
+     margin-bottom: 10px;
+}
+
+input {
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+select {
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+
+}
+
+button {
+     padding: 10px;
+     background-color: #333;
+     color: white;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+}
+
+button:hover {
+     background-color: #555;
+}
+
+/* Estilos para los artistas registrados */
+.artistas-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.artista-card {
+     background-color: white;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     padding: 20px;
+     margin: 10px;
+     width: 200px;
+     text-align: center;
+}
+
+footer {
+     background-color: #333;
+     color: white;
+     text-align: center;
+     padding: 10px 0;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+}
+
+.social-icons {
+     margin-top: 10px;
+}
+
+.social-icons img {
+     width: 30px;
+     margin: 0 10px;
+}
